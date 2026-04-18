@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 100
+include = '\.pyi?$'
+
+[tool.ruff]
+ignore = ["F403", "F405"]
+line-length = 100
+select = ["F", "E", "W", "I001"]
+
+[tool.isort]
+profile = "black"

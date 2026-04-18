@@ -1,0 +1,10 @@
+fastapi==0.109.0
+pydantic==2.5.3
+uvicorn==0.26.0
+
+SQLAlchemy==2.0.4
+sqlalchemy-utils==0.41.1
+alembic==1.13.1
+psycopg[binary,pool]==3.2.12
+
+requests

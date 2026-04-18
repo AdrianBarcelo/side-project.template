@@ -1,0 +1,11 @@
+-r base.txt
+-r linting.txt
+
+pytest~=7.4.3
+pytest-sugar~=0.9.7
+coverage~=7.3.2
+pytest-cov~=4.1.0
+pytest-responses==0.5.1
+freezegun==1.2.2
+httpx~=0.25.1
+mockito==1.5.4
