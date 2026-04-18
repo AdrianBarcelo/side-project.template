@@ -1,6 +1,8 @@
 from pydantic.dataclasses import dataclass
 
-from template.shared.domain.aggregate.value_objects.exceptions.integer_is_not_positive import IntegerIsNotPositive
+from template.shared.domain.aggregate.value_objects.exceptions.integer_is_not_positive import (
+    IntegerIsNotPositive,
+)
 from template.shared.domain.aggregate.value_objects.value_object import ValueObject
 
 

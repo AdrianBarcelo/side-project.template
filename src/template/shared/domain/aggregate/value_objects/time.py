@@ -1,7 +1,9 @@
 from dataclasses import dataclass
 from typing import Self
 
-from template.shared.domain.aggregate.value_objects.exceptions.invalid_milliseconds import InvalidMilliseconds
+from template.shared.domain.aggregate.value_objects.exceptions.invalid_milliseconds import (
+    InvalidMilliseconds,
+)
 from template.shared.domain.aggregate.value_objects.exceptions.invalid_minutes import InvalidMinutes
 from template.shared.domain.aggregate.value_objects.exceptions.invalid_seconds import InvalidSeconds
 from template.shared.domain.aggregate.value_objects.exceptions.time_not_valid import InvalidTime

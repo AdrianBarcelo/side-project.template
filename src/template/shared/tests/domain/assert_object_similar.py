@@ -148,7 +148,8 @@ class AssertObjectSimilar:
                     other_str = pp.pformat(filtered_other)
                     diff = colored_diff(expected_str, other_str)
                     raise AssertionError(
-                        f"Difference array len: Expected {len(self.expected)} but actual {len(other)}\n"
+                        f"Difference array len: "
+                        f"Expected {len(self.expected)} but actual {len(other)}\n"
                         f"Full difference:\n{diff}"
                     )
 

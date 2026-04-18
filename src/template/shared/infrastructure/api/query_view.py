@@ -3,10 +3,10 @@ from typing import Any, Generic, TypeVar, cast
 
 from sqlalchemy.orm import Session
 
+from databases import SessionFactory
 from template.shared.domain.bus.query.query import Query
 from template.shared.domain.bus.query.response import Response as QueryResponse
 from template.shared.infrastructure.dependencies_container import DependenciesContainer
-from databases import SessionFactory
 
 TQuery = TypeVar("TQuery", bound=Query)
 TResponse = TypeVar("TResponse", bound=QueryResponse)

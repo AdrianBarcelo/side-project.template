@@ -5,6 +5,7 @@ from sqlalchemy import engine_from_config, pool
 
 from alembic import context
 from databases import Base  # noqa: F401
+
 # TODO: importar modelos de cada bounded context para autogenerate
 # Ejemplo:
 # from my_context.infrastructure.my_model import *  # noqa

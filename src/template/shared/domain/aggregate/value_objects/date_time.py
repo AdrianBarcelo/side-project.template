@@ -25,7 +25,9 @@ class DateTime(ValueObject):
         return cls(datetime.fromtimestamp(timestamp, tz=UTC))
 
     @classmethod
-    def from_string_or_null(cls, date_time: str | None, date_format: Optional[str] = None) -> Self | None:
+    def from_string_or_null(
+        cls, date_time: str | None, date_format: Optional[str] = None
+    ) -> Self | None:
         if date_time is None:
             return None
 

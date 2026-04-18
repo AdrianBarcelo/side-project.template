@@ -4,9 +4,9 @@ from typing import Any, Generic, TypeVar
 from fastapi import Response
 from sqlalchemy.orm import Session
 
+from databases import SessionFactory
 from template.shared.domain.bus.command.command import Command
 from template.shared.infrastructure.dependencies_container import DependenciesContainer
-from databases import SessionFactory
 
 TCommand = TypeVar("TCommand", bound=Command)
 
